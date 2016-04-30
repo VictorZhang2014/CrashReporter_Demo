@@ -25,3 +25,9 @@ Usage
 
 
 Give a good suggestion, you can upload these crashed files when application is launched while there has some crashed files.
+
+There is an easily example in ViewController.m file at - (void)viewDidLoad; event.
+
+And it will be crashed when application is completely launched and it is in sandbox path "/Library/Caches/".
+
+Export it and see it .
