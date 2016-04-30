@@ -13,7 +13,6 @@
 @interface CrashReport()
 @property (nonatomic, strong) PLCrashReporter *plCrashReporter;
 @property (nonatomic, assign) NSUncaughtExceptionHandler *exceptionHandler;
-@property (nonatomic, strong) NSString *crashesDir;
 @property (nonatomic, assign) BOOL appStoreEnvironment;
 @end
 

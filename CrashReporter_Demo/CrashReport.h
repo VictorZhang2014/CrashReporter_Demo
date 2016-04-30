@@ -10,6 +10,12 @@
 
 @interface CrashReport : NSObject
 
+/**
+ * Crash Directory 
+ * This is crash directory
+ */
+@property (nonatomic, strong) NSString *crashesDir;
+
 + (instancetype)share;
 
 + (void)enable;
